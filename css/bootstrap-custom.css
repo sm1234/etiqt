@@ -22,3 +22,10 @@
 	font-size:14px;
 }	
 
+.c-overlay {
+	z-index: 10;
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+	left: 50%;
+	top: 20%;
+}
