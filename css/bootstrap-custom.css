@@ -95,7 +95,36 @@
 
 .c-thumbnail {
 	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;	
+}
+
+.c-buttons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -35px;
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgba(0,0,0,0.25);
 	
+}
+
+.c-buttons a {
+	width: 60px;
+	height: 45px;
+	line-height: 48px;
+	font-size: 22px;
+	display: inline-block;
+	color: rgb(240, 240, 240);
+	border-radius: 3px 3px 3px 3px;
+}
+.c-buttons a:hover {
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: rgb(255, 255, 255);
 }
 
 @media screen and (min-width:960px)
